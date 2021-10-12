@@ -1,5 +1,6 @@
 import React from 'react';
-const Module1 = ({ name = 'directly' }) => (
+
+const Module2 = ({ name = 'directly' }) => (
   <div style={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
     <div
       style={{
@@ -9,11 +10,11 @@ const Module1 = ({ name = 'directly' }) => (
         paddingLeft: '1rem',
       }}
     >
-      Module 1 - Loaded {name}
+      Application 1 Module 2 - Loaded {name}
     </div>
     <div style={{ flex: 1 }}>
-      <button>Module 1 Button</button>
+      <img src="https://via.placeholder.com/300/09f/fff.png" />
     </div>
   </div>
 );
-export default Module1;
+export default Module2;

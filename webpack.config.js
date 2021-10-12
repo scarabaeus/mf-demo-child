@@ -19,7 +19,7 @@ module.exports = {
         loader: 'babel-loader',
         options: {
           presets: [
-            '@babel/preset-env' /* to transfer any advansed ES to ES5 */,
+            '@babel/preset-env' /* to transfer any advanced ES to ES5 */,
             '@babel/preset-react',
           ], // to compile react to ES5
         },
@@ -32,6 +32,7 @@ module.exports = {
       filename: 'remoteEntry.js',
       exposes: {
         './Module1': './src/components/Module1',
+        './Module2': './src/components/Module2',
       },
     }),
     new HtmlWebpackPlugin({
