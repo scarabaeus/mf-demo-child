@@ -1,5 +1,5 @@
 import React from 'react';
-const Module1 = ({ name = 'N/A' }) => (
+const Module1 = ({ name = 'directly' }) => (
   <div style={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
     <div
       style={{
@@ -9,7 +9,7 @@ const Module1 = ({ name = 'N/A' }) => (
         paddingLeft: '1rem',
       }}
     >
-      Module 1 {name}
+      Module 1 - Loaded {name}
     </div>
     <div style={{ flex: 1 }}>
       <button>Module 1 Button</button>
