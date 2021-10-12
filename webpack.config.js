@@ -28,10 +28,10 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'MFE1',
+      name: 'Application1',
       filename: 'remoteEntry.js',
       exposes: {
-        './Button': './src/components/Button',
+        './Module1': './src/components/Module1',
       },
     }),
     new HtmlWebpackPlugin({

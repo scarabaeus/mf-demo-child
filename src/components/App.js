@@ -1,13 +1,8 @@
 import React from 'react';
-import Button from './Button';
+import Module1 from './Module1';
 
 const App = () => {
-  return (
-    <div>
-      <h2>Child App</h2>
-      <Button />
-    </div>
-  );
+  return <Module1 />;
 };
 
 export default App;
