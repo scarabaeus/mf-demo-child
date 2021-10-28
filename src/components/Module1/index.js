@@ -12,7 +12,21 @@ const Module1 = ({ name = 'directly' }) => (
     >
       Application 1 Module 1 - Loaded {name}
     </div>
-    <div style={{ flex: 1 }}>
+    <div style={{ marginTop: '1rem' }}>
+      mf-demo-child Dependencies:
+      <ul>
+        <li>
+          <code>react 17.0.2</code>
+        </li>
+        <li>
+          <code>react-router 17.0.2</code>
+        </li>
+        <li>
+          <code>react-router-dom 5.3.0</code>
+        </li>
+      </ul>
+    </div>
+    <div style={{ flex: 1, marginTop: '1rem' }}>
       <button>Module 1 Button</button>
     </div>
   </div>
