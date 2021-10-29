@@ -1,7 +1,9 @@
 import React from 'react';
+import './index.css';
 
 const Module1 = ({ name = 'directly' }) => (
   <div style={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
+    <div className="collision-test">Collisions Test: Defined as green</div>
     <div
       style={{
         borderBottom: '1px solid #808080',

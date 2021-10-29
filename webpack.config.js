@@ -10,6 +10,7 @@ module.exports = {
   },
   module: {
     rules: [
+      { test: /\.css$/, use: ['style-loader', 'css-loader'] },
       {
         /* The following line to ask babel 
              to compile any file with extension

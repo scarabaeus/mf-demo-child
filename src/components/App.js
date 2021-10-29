@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Module1 from './Module1';
 import Module2 from './Module2';
+import './App.css';
 
 const App = () => {
   return (
