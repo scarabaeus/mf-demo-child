@@ -5,6 +5,9 @@ module.exports = {
   devServer: {
     port: 8083,
   },
+  output: {
+    uniqueName: 'mf-demo-child',
+  },
   module: {
     rules: [
       {
