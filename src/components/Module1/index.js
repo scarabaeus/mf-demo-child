@@ -18,7 +18,7 @@ const Module1 = ({ name = 'directly' }) => (
       mf-demo-child Dependencies:
       <ul>
         <li>
-          <code>react 17.0.2</code>
+          <code>react {React.version}</code>
         </li>
         <li>
           <code>react-router 17.0.2</code>
